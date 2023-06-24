@@ -8,5 +8,48 @@
 </head>
 <body>
     <h1>MARIAM ALI HABEB</h1>
+    <input type="hidden" value="0000">
+    <input type="number" min="10" max="100" step="5"/>
+    <input type="range" min="10" max="100" step="5"/>
+    <input type="text" required placeholder="my name is mariam" autofocus/>
+    <form>
+        <input id="cars" type="checkbox" name="kind" value="car">
+        <label for="cars">car</label>
+        <input id="phone" type="checkbox" name="kind" value="mobile" checked>
+        <label for="phone">mobile</label>
+        <input id="pizza" type="checkbox" name="kind" value="food">
+        <label for="pizza">food</label>
+        <input type="submit">
+    </form>
+    <label for="courses">choose your course</label>
+    <select id="courses" name="" multiple>
+        <optgroup label="programming">
+            <option value="css">css</option>
+            <option value="html">html</option>
+            <option value="js">javascript</option>
+        </optgroup>
+        <optgroup label="languages">
+            <option value="en">english</option>
+            <option value="ar">arabic</option>
+            <option value="tur">turkish</option>
+        </optgroup>
+        
+
+    </select>
+    <button type="submit">send</button>
+
+    <form action="" method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+          <option value="google">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <input type="submit">
+      </form>
+
 </body>
 </html>
